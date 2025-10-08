@@ -4,14 +4,14 @@
   - [ ] Home page with product highlights and banners
   - [ ] Product listing page with filters and categories
   - [ ] Product details page
-  - [ ] Cart page
+  - [x] Cart page
   - [ ] Checkout page
-  - [ ] Account page
+  - [x] Account page
   - [ ] Sign In / Sign Up / Forgot Password
-  - [ ] Search results page
-  - [ ] Navbar with search + cart icon + login/profile link
-  - [ ] Footer with links and contact info
-  - [ ] Product cards
+  - [x] Search results page
+  - [x] Navbar with search + cart icon + login/profile link
+  - [x] Footer with links and contact info
+  - [x] Product cards
   - [ ] Category banners
   - [ ] Toasts/alerts
   - [ ] Loading and empty states
@@ -58,6 +58,6 @@
 ### Marketing / SEO
   - [ ] Meta titles and descriptions
   - [ ] Schema markup for products
-  - [ ] Friendly URLs
+  - [x] Friendly URLs
   - [ ] Analytics setup
-  - [ ] Newsletter signup
+  - [x] Newsletter signup
