@@ -61,3 +61,5 @@
   - [x] Friendly URLs
   - [ ] Analytics setup
   - [x] Newsletter signup
+
+> ** Guia de cosas que deberia de hacer antes de dar por terminado el proyecto, segun ChatGPT.
