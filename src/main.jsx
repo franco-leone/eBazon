@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import HomeContent from "./pages/Home";
 import SearchResults from "./pages/SearchResults";
 import AccountPage from "./pages/Account";
+import CartPage from "./pages/cart";
 import Footer from "./components/Footer";
 
 createRoot(document.getElementById("root")).render(
@@ -16,6 +17,7 @@ createRoot(document.getElementById("root")).render(
         <Route index element={<HomeContent />}></Route>
         <Route path="/" element={<SearchResults />}></Route>
         <Route path="/account" element={<AccountPage />}></Route>
+        <Route path="/cart" element={<CartPage />}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>

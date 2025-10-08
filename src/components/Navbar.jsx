@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav>
+    <nav className="absolute top-0 left-0 z-50 w-full">
       <div className="flex pl-4 pr-4 justify-between items-center w-full h-18 bg-neutral-700">
         <Link to="/" className="flex items-center">
           <img
@@ -34,7 +34,7 @@ function Navbar() {
               </span>
             </Link>
             <Menu as="div" className="relative inline-block h-full w-full">
-              <MenuButton className="flex cursor-pointer h-full w-full items-center justify-center">
+              <MenuButton className="flex cursor-pointer h-full w-full items-center justify-center focus:outline-none">
                 <span className="cursor-pointer material-symbols-rounded hover:text-neutral-400">
                   menu
                 </span>
@@ -45,12 +45,12 @@ function Navbar() {
               >
                 <div className="py-1">
                   <MenuItem>
-                    <a
-                      href="#"
+                    <Link
+                      to="/account"
                       className="block px-4 py-2 text-sm text-white data-focus:bg-white/5 data-focus:text-gray-300 data-focus:outline-hidden"
                     >
-                      CATEGORIA
-                    </a>
+                      Perfil
+                    </Link>
                   </MenuItem>
                   <MenuItem>
                     <a
