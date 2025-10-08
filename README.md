@@ -1,8 +1,6 @@
-# Seguimiento de tareas
+## Seguimiento de tareas
 
-# E-Commerce Website Checklist
-
-- [ ] UI / Frontend
+### UI / Frontend
   - [ ] Home page with product highlights and banners
   - [ ] Product listing page with filters and categories
   - [ ] Product details page
@@ -18,7 +16,7 @@
   - [ ] Toasts/alerts
   - [ ] Loading and empty states
 
-- [ ] Functionality / Logic
+### Functionality / Logic
   - [ ] “Add to cart” / “Remove from cart”
   - [ ] Store cart in localStorage or backend
   - [ ] Handle quantity updates
@@ -29,7 +27,7 @@
   - [ ] Checkout flow
   - [ ] Order confirmation page
 
-- [ ] Backend / API
+### Backend / API
   - [ ] Product CRUD
   - [ ] User authentication
   - [ ] Cart persistence
@@ -38,33 +36,26 @@
   - [ ] Image storage
   - [ ] Admin routes
 
-- [ ] Payments & Checkout
+### Payments & Checkout
   - [ ] Integrate payment provider
   - [ ] Securely handle card info
   - [ ] Handle success/failure payments
   - [ ] Confirmation emails
   - [ ] Generate order IDs
 
-- [ ] State Management
+### State Management
   - [ ] Choose state solution
   - [ ] Manage global user data
   - [ ] Manage cart globally
   - [ ] Persist data between refreshes
 
-- [ ] Security
+### Security
   - [ ] Sanitize inputs
   - [ ] Protect private routes
   - [ ] Secure cookies/tokens
   - [ ] HTTPS + secure headers
 
-- [x] UX / Design
-  - [ ] Responsive layout
-  - [ ] Clear navigation
-  - [ ] Consistent spacing and typography
-  - [ ] Smooth transitions
-  - [ ] Clear CTAs
-
-- [ ] Marketing / SEO
+### Marketing / SEO
   - [ ] Meta titles and descriptions
   - [ ] Schema markup for products
   - [ ] Friendly URLs
