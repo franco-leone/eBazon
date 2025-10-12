@@ -22,7 +22,10 @@ function AccountPage() {
             className="flex cursor-pointer  hover:bg-neutral-700/30 rounded-lg active:bg-neutral-700/30 relative p-4 justify-between w-full md:after:w-0 after:w-9/10 after:h-px after:bg-neutral-500/70 after:absolute after:-translate-x-1/2 after:left-1/2 after:bottom-0 after:content-['']"
           >
             <div className="flex self-center">
-              <div>
+              <span className="material-symbols-rounded self-center">
+                manage_accounts
+              </span>
+              <div className="pl-4">
                 <h1 className="text-xl">Informacion de tu cuenta</h1>
                 <p className="text-sm mt-2 text-neutral-400">
                   Direccion, historial de compras y mas
@@ -37,11 +40,16 @@ function AccountPage() {
             to="/"
             className="flex cursor-pointer  hover:bg-neutral-700/30 rounded-lg active:bg-neutral-700/30 relative p-4 justify-between w-full md:after:w-0 after:w-9/10 after:h-px after:bg-neutral-500/70 after:absolute after:-translate-x-1/2 after:left-1/2 after:bottom-0 after:content-['']"
           >
-            <div className="self-center">
-              <h1 className="text-xl">Seguridad</h1>
-              <p className="text-sm mt-2 text-neutral-400">
-                Opciones de seguridad
-              </p>
+            <div className="flex self-center">
+              <span className="material-symbols-rounded self-center">
+                security
+              </span>
+              <div className="pl-4">
+                <h1 className="text-xl">Seguridad</h1>
+                <p className="text-sm mt-2 text-neutral-400">
+                  Opciones de seguridad
+                </p>
+              </div>
             </div>
             <span class="cursor-pointer material-symbols-rounded self-center hover:text-neutral-400">
               keyboard_arrow_right
@@ -51,11 +59,16 @@ function AccountPage() {
             to="/"
             className="flex cursor-pointer  hover:bg-neutral-700/30 rounded-lg active:bg-neutral-700/30 relative p-4 justify-between w-full md:after:w-0 after:w-9/10 after:h-px after:bg-neutral-500/70 after:absolute after:-translate-x-1/2 after:left-1/2 after:bottom-0 after:content-['']"
           >
-            <div className="self-center">
-              <h1 className="text-xl">Metodos de pago</h1>
-              <p className="text-sm mt-2 text-neutral-400">
-                Metodos de pago guardados en tu cuenta
-              </p>
+            <div className="flex self-center">
+              <span className="material-symbols-rounded self-center">
+                credit_card_gear
+              </span>
+              <div className="pl-4">
+                <h1 className="text-xl">Metodos de pago</h1>
+                <p className="text-sm mt-2 text-neutral-400">
+                  Metodos de pago guardados en tu cuenta
+                </p>
+              </div>
             </div>
             <span class="cursor-pointer material-symbols-rounded self-center hover:text-neutral-400">
               keyboard_arrow_right
@@ -65,11 +78,16 @@ function AccountPage() {
             to="/"
             className="flex cursor-pointer  hover:bg-neutral-700/30 rounded-lg active:bg-neutral-700/30 relative p-4 justify-between w-full md:after:w-0 after:w-9/10 after:h-px after:bg-neutral-500/70 after:absolute after:-translate-x-1/2 after:left-1/2 after:bottom-0 after:content-['']"
           >
-            <div className="self-center">
-              <h1 className="text-xl">Pedidos</h1>
-              <p className="text-sm mt-2 text-neutral-400">
-                Seguir, cancelar, descargar tu factura y mas
-              </p>
+            <div className="flex self-center">
+              <span className="material-symbols-rounded self-center">
+                package_2
+              </span>
+              <div className="pl-4">
+                <h1 className="text-xl">Pedidos</h1>
+                <p className="text-sm mt-2 text-neutral-400">
+                  Seguir, cancelar, descargar tu factura y mas
+                </p>
+              </div>
             </div>
             <span class="cursor-pointer material-symbols-rounded self-center hover:text-neutral-400">
               keyboard_arrow_right
@@ -79,11 +97,16 @@ function AccountPage() {
             to="/"
             className="flex cursor-pointer  hover:bg-neutral-700/30 rounded-lg active:bg-neutral-700/30 relative p-4 justify-between w-full "
           >
-            <div className="self-center">
-              <h1 className="text-xl">Privacidad</h1>
-              <p className="text-sm mt-2 text-neutral-400">
-                Preferencias y control sobre el uso de tus datos
-              </p>
+            <div className="flex self-center">
+              <span className="material-symbols-rounded self-center">
+                encrypted
+              </span>
+              <div className="pl-4">
+                <h1 className="text-xl">Privacidad</h1>
+                <p className="text-sm mt-2 text-neutral-400">
+                  Preferencias y control sobre el uso de tus datos
+                </p>
+              </div>
             </div>
             <span class="cursor-pointer material-symbols-rounded self-center hover:text-neutral-400">
               keyboard_arrow_right

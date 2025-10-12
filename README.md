@@ -1,65 +1,12 @@
-## Seguimiento de tareas
+# React + Vite
 
-### UI / Frontend
-  - [ ] Home page with product highlights and banners
-  - [ ] Product listing page with filters and categories
-  - [ ] Product details page
-  - [x] Cart page
-  - [ ] Checkout page
-  - [x] Account page
-  - [ ] Sign In / Sign Up / Forgot Password
-  - [x] Search results page
-  - [x] Navbar with search + cart icon + login/profile link
-  - [x] Footer with links and contact info
-  - [x] Product cards
-  - [ ] Category banners
-  - [ ] Toasts/alerts
-  - [ ] Loading and empty states
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### Functionality / Logic
-  - [ ] “Add to cart” / “Remove from cart”
-  - [ ] Store cart in localStorage or backend
-  - [ ] Handle quantity updates
-  - [ ] Implement user authentication
-  - [ ] Save user session
-  - [ ] Product search
-  - [ ] Product filters
-  - [ ] Checkout flow
-  - [ ] Order confirmation page
+Currently, two official plugins are available:
 
-### Backend / API
-  - [ ] Product CRUD
-  - [ ] User authentication
-  - [ ] Cart persistence
-  - [ ] Order creation and tracking
-  - [ ] Payment gateway integration
-  - [ ] Image storage
-  - [ ] Admin routes
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-### Payments & Checkout
-  - [ ] Integrate payment provider
-  - [ ] Securely handle card info
-  - [ ] Handle success/failure payments
-  - [ ] Confirmation emails
-  - [ ] Generate order IDs
+## Expanding the ESLint configuration
 
-### State Management
-  - [ ] Choose state solution
-  - [ ] Manage global user data
-  - [ ] Manage cart globally
-  - [ ] Persist data between refreshes
-
-### Security
-  - [ ] Sanitize inputs
-  - [ ] Protect private routes
-  - [ ] Secure cookies/tokens
-  - [ ] HTTPS + secure headers
-
-### Marketing / SEO
-  - [ ] Meta titles and descriptions
-  - [ ] Schema markup for products
-  - [x] Friendly URLs
-  - [ ] Analytics setup
-  - [x] Newsletter signup
-
-> ** Guia de cosas que deberia de hacer antes de dar por terminado el proyecto, segun ChatGPT.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
